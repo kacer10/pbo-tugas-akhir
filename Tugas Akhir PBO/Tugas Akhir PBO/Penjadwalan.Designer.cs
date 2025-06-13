@@ -42,13 +42,15 @@
             DiagnosaIsi = new TextBox();
             jadwalinput = new Label();
             pictureBox1 = new PictureBox();
+            label1 = new Label();
+            jenis_obat = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // Done
             // 
             Done.Location = new Point(541, 323);
-            Done.Margin = new Padding(2, 2, 2, 2);
+            Done.Margin = new Padding(2);
             Done.Name = "Done";
             Done.Size = new Size(90, 27);
             Done.TabIndex = 0;
@@ -59,7 +61,7 @@
             // Kembali
             // 
             Kembali.Location = new Point(446, 323);
-            Kembali.Margin = new Padding(2, 2, 2, 2);
+            Kembali.Margin = new Padding(2);
             Kembali.Name = "Kembali";
             Kembali.Size = new Size(90, 27);
             Kembali.TabIndex = 1;
@@ -71,7 +73,7 @@
             // 
             dateTimePicker2.Format = DateTimePickerFormat.Time;
             dateTimePicker2.Location = new Point(203, 82);
-            dateTimePicker2.Margin = new Padding(2, 2, 2, 2);
+            dateTimePicker2.Margin = new Padding(2);
             dateTimePicker2.Name = "dateTimePicker2";
             dateTimePicker2.ShowUpDown = true;
             dateTimePicker2.Size = new Size(241, 27);
@@ -80,17 +82,17 @@
             // 
             // comboBoxPasien
             // 
-            comboBoxPasien.Location = new Point(241, 127);
-            comboBoxPasien.Margin = new Padding(2, 2, 2, 2);
-            comboBoxPasien.Name = "comboBoxPasien";
-            comboBoxPasien.Size = new Size(252, 27);
             comboBoxPasien.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxPasien.Location = new Point(241, 127);
+            comboBoxPasien.Margin = new Padding(2);
+            comboBoxPasien.Name = "comboBoxPasien";
+            comboBoxPasien.Size = new Size(252, 28);
             comboBoxPasien.TabIndex = 4;
             // 
             // ObatIsi
             // 
             ObatIsi.Location = new Point(190, 168);
-            ObatIsi.Margin = new Padding(2, 2, 2, 2);
+            ObatIsi.Margin = new Padding(2);
             ObatIsi.Name = "ObatIsi";
             ObatIsi.Size = new Size(304, 27);
             ObatIsi.TabIndex = 5;
@@ -98,7 +100,7 @@
             // DosisIsi
             // 
             DosisIsi.Location = new Point(190, 205);
-            DosisIsi.Margin = new Padding(2, 2, 2, 2);
+            DosisIsi.Margin = new Padding(2);
             DosisIsi.Name = "DosisIsi";
             DosisIsi.Size = new Size(304, 27);
             DosisIsi.TabIndex = 6;
@@ -146,7 +148,7 @@
             // DiagnosaIsi
             // 
             DiagnosaIsi.Location = new Point(207, 242);
-            DiagnosaIsi.Margin = new Padding(2, 2, 2, 2);
+            DiagnosaIsi.Margin = new Padding(2);
             DiagnosaIsi.Name = "DiagnosaIsi";
             DiagnosaIsi.Size = new Size(286, 27);
             DiagnosaIsi.TabIndex = 12;
@@ -168,12 +170,30 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(10, 10);
-            pictureBox1.Margin = new Padding(2, 2, 2, 2);
+            pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(42, 50);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 14;
             pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(143, 275);
+            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(40, 20);
+            label1.TabIndex = 16;
+            label1.Text = "Jenis";
+            // 
+            // jenis_obat
+            // 
+            jenis_obat.Location = new Point(190, 273);
+            jenis_obat.Margin = new Padding(2);
+            jenis_obat.Name = "jenis_obat";
+            jenis_obat.Size = new Size(304, 27);
+            jenis_obat.TabIndex = 15;
             // 
             // Penjadwalan
             // 
@@ -181,6 +201,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
             ClientSize = new Size(640, 360);
+            Controls.Add(label1);
+            Controls.Add(jenis_obat);
             Controls.Add(pictureBox1);
             Controls.Add(jadwalinput);
             Controls.Add(DiagnosaIsi);
@@ -194,7 +216,7 @@
             Controls.Add(dateTimePicker2);
             Controls.Add(Kembali);
             Controls.Add(Done);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Penjadwalan";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -217,5 +239,7 @@
         private TextBox DiagnosaIsi;
         private Label jadwalinput;
         private PictureBox pictureBox1;
+        private Label label1;
+        private TextBox jenis_obat;
     }
 }

@@ -44,6 +44,7 @@ namespace Tugas_Akhir_PBO
             string dosis = DosisIsi.Text;
             string diagnosa = DiagnosaIsi.Text;
             string waktu = dateTimePicker2.Value.ToString("HH:mm");
+            string jenis = jenis_obat.Text;
 
             if (string.IsNullOrEmpty(namaPasien) || string.IsNullOrEmpty(obat) || string.IsNullOrEmpty(dosis))
             {
@@ -84,11 +85,13 @@ namespace Tugas_Akhir_PBO
             else
             {
                 // Insert obat baru
-                string insertObat = "INSERT INTO Obat (nama_obat, dosis) VALUES (@nama, @dosis) RETURNING id_obat";
+                string insertObat = "INSERT INTO Obat (nama_obat, dosis, jenis_obat) VALUES (@nama, @dosis,@jenis) RETURNING id_obat";
                 var paramInsertObat = new Npgsql.NpgsqlParameter[] 
                 {
                     new Npgsql.NpgsqlParameter("@nama", obat),
-                    new Npgsql.NpgsqlParameter("@dosis", dosis)
+                    new Npgsql.NpgsqlParameter("@dosis", dosis),
+                    new Npgsql.NpgsqlParameter("@jenis", jenis)
+
                 };
                 DataTable result = Database.Database.queryExecutor(insertObat, paramInsertObat);
                 idObat = Convert.ToInt32(result.Rows[0]["id_obat"]);
