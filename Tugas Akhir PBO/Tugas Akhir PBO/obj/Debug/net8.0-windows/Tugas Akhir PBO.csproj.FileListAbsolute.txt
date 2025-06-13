@@ -1,0 +1,55 @@
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.LoginForm.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Properties.Resources.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.AssemblyInfo.cs
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.exe
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.deps.json
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.runtimeconfig.json
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.dll
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.pdb
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.dll
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\refint\Tugas Akhir PBO.dll
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.pdb
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.genruntimeconfig.cache
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\ref\Tugas Akhir PBO.dll
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Kondisi.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Dashboard.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Penjadwalan.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Riwayat.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Laporan.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Jadwal.resources
+C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.DataPasien.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.csproj.AssemblyReference.cache
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.DataPasien.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Jadwal.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Kondisi.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Dashboard.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Laporan.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.LoginForm.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Form1.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Penjadwalan.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Properties.Resources.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Riwayat.resources
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.csproj.GenerateResource.cache
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.AssemblyInfoInputs.cache
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.AssemblyInfo.cs
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.sourcelink.json
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.dll
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\refint\Tugas Akhir PBO.dll
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.pdb
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.exe
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.deps.json
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.runtimeconfig.json
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.dll
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Tugas Akhir PBO.pdb
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Ak.B784A779.Up2Date
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.genruntimeconfig.cache
+C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\ref\Tugas Akhir PBO.dll
