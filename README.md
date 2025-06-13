@@ -31,7 +31,8 @@ CREATE TABLE Kondisi (
 CREATE TABLE Obat (
     id_obat SERIAL PRIMARY KEY,
     nama_obat VARCHAR(50) NOT NULL,
-    dosis VARCHAR(25) NOT NULL
+    dosis VARCHAR(25) NOT NULL,
+    jenis_obat VARCHAR(25) NOT NULL
 );
 
 -- Tabel Penjadwalan Obat
