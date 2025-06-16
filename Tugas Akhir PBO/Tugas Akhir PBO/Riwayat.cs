@@ -31,9 +31,23 @@ namespace Tugas_Akhir_PBO
 
         private void LoadDataJadwal()
         {
-            string query = "SELECT * FROM Penjadwalan_Obat";
+            string query = @"
+                SELECT 
+                    po.id_jadwal,
+                    p.nama_pasien,
+                    o.nama_obat,
+                    po.waktu_pemberian,
+                    po.status
+                FROM 
+                    Penjadwalan_Obat po
+                JOIN 
+                    Pasien p ON po.id_pasien = p.id_pasien
+                JOIN 
+                    Obat o ON po.id_obat = o.id_obat
+                ";
             DataTable dt = Tugas_Akhir_PBO.Database.Database.queryExecutor(query);
             dataGridView1.DataSource = dt;
+
         }
         private void Riwayat_Load(object sender, EventArgs e)
         {

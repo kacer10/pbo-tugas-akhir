@@ -24,12 +24,10 @@ C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-win
 C:\Users\admin\source\repos\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.DataPasien.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas Akhir PBO.csproj.AssemblyReference.cache
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.DataPasien.resources
-C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Jadwal.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Kondisi.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Dashboard.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Laporan.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.LoginForm.resources
-C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Form1.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Penjadwalan.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Properties.Resources.resources
 C:\Users\ASUS\Source\Repos\pbo_projek\Tugas Akhir PBO\Tugas Akhir PBO\obj\Debug\net8.0-windows\Tugas_Akhir_PBO.Riwayat.resources

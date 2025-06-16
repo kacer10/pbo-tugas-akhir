@@ -39,7 +39,7 @@
             isiObat = new Label();
             isiDosis = new Label();
             isiDiagnosis = new Label();
-            DiagnosaIsi = new TextBox();
+            CatatanIsi = new TextBox();
             jadwalinput = new Label();
             pictureBox1 = new PictureBox();
             label1 = new Label();
@@ -145,13 +145,13 @@
             isiDiagnosis.TabIndex = 11;
             isiDiagnosis.Text = "Catatan";
             // 
-            // DiagnosaIsi
+            // CatatanIsi
             // 
-            DiagnosaIsi.Location = new Point(207, 242);
-            DiagnosaIsi.Margin = new Padding(2);
-            DiagnosaIsi.Name = "DiagnosaIsi";
-            DiagnosaIsi.Size = new Size(286, 27);
-            DiagnosaIsi.TabIndex = 12;
+            CatatanIsi.Location = new Point(207, 242);
+            CatatanIsi.Margin = new Padding(2);
+            CatatanIsi.Name = "CatatanIsi";
+            CatatanIsi.Size = new Size(286, 27);
+            CatatanIsi.TabIndex = 12;
             // 
             // jadwalinput
             // 
@@ -180,7 +180,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(143, 275);
+            label1.Location = new Point(143, 278);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(40, 20);
@@ -189,7 +189,7 @@
             // 
             // jenis_obat
             // 
-            jenis_obat.Location = new Point(190, 273);
+            jenis_obat.Location = new Point(190, 275);
             jenis_obat.Margin = new Padding(2);
             jenis_obat.Name = "jenis_obat";
             jenis_obat.Size = new Size(304, 27);
@@ -205,7 +205,7 @@
             Controls.Add(jenis_obat);
             Controls.Add(pictureBox1);
             Controls.Add(jadwalinput);
-            Controls.Add(DiagnosaIsi);
+            Controls.Add(CatatanIsi);
             Controls.Add(isiDiagnosis);
             Controls.Add(isiDosis);
             Controls.Add(isiObat);
@@ -218,7 +218,7 @@
             Controls.Add(Done);
             Margin = new Padding(2);
             Name = "Penjadwalan";
-            Text = "Form1";
+            Text = "Jadwal Konsumsi";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -236,7 +236,7 @@
         private Label isiObat;
         private Label isiDosis;
         private Label isiDiagnosis;
-        private TextBox DiagnosaIsi;
+        private TextBox CatatanIsi;
         private Label jadwalinput;
         private PictureBox pictureBox1;
         private Label label1;

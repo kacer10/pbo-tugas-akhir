@@ -204,7 +204,6 @@
             Controls.Add(suhu_tubuh);
             Margin = new Padding(2);
             Name = "Kondisi";
-            Text = "Form1";
             Load += Kondisi_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

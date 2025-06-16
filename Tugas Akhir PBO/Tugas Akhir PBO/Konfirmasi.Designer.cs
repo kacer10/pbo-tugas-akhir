@@ -45,7 +45,7 @@ namespace Tugas_Akhir_PBO
             konfirmasinya.AutoSize = true;
             konfirmasinya.Font = new Font("Trebuchet MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             konfirmasinya.ForeColor = Color.FromArgb(0, 64, 64);
-            konfirmasinya.Location = new Point(254, 108);
+            konfirmasinya.Location = new Point(273, 109);
             konfirmasinya.Name = "konfirmasinya";
             konfirmasinya.Size = new Size(245, 38);
             konfirmasinya.TabIndex = 0;

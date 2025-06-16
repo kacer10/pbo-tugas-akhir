@@ -42,11 +42,11 @@ namespace Tugas_Akhir_PBO
             string namaPasien = comboBoxPasien.SelectedItem?.ToString();
             string obat = ObatIsi.Text;
             string dosis = DosisIsi.Text;
-            string diagnosa = DiagnosaIsi.Text;
+            string catatan = CatatanIsi.Text;
             string waktu = dateTimePicker2.Value.ToString("HH:mm");
             string jenis = jenis_obat.Text;
 
-            if (string.IsNullOrEmpty(namaPasien) || string.IsNullOrEmpty(obat) || string.IsNullOrEmpty(dosis))
+            if (string.IsNullOrEmpty(namaPasien) || string.IsNullOrEmpty(obat) || string.IsNullOrEmpty(dosis) || string.IsNullOrEmpty(catatan) || string.IsNullOrEmpty(jenis))
             {
                 MessageBox.Show("Mohon lengkapi semua data.");
                 return;
@@ -54,7 +54,7 @@ namespace Tugas_Akhir_PBO
 
             // Ambil id_pasien
             string queryPasien = "SELECT id_pasien FROM Pasien WHERE nama_pasien = @nama";
-            var paramPasien = new Npgsql.NpgsqlParameter[] 
+            var paramPasien = new Npgsql.NpgsqlParameter[]
             {
                 new Npgsql.NpgsqlParameter("@nama", namaPasien)
             };
@@ -70,7 +70,7 @@ namespace Tugas_Akhir_PBO
 
             // Cek apakah obat sudah ada
             string queryObat = "SELECT id_obat FROM Obat WHERE nama_obat = @nama";
-            var paramObat = new Npgsql.NpgsqlParameter[] 
+            var paramObat = new Npgsql.NpgsqlParameter[]
             {
                 new Npgsql.NpgsqlParameter("@nama", obat)
             };
@@ -86,7 +86,7 @@ namespace Tugas_Akhir_PBO
             {
                 // Insert obat baru
                 string insertObat = "INSERT INTO Obat (nama_obat, dosis, jenis_obat) VALUES (@nama, @dosis,@jenis) RETURNING id_obat";
-                var paramInsertObat = new Npgsql.NpgsqlParameter[] 
+                var paramInsertObat = new Npgsql.NpgsqlParameter[]
                 {
                     new Npgsql.NpgsqlParameter("@nama", obat),
                     new Npgsql.NpgsqlParameter("@dosis", dosis),
@@ -98,13 +98,14 @@ namespace Tugas_Akhir_PBO
             }
 
             // Insert ke Penjadwalan_Obat
-            string insertJadwal = "INSERT INTO Penjadwalan_Obat (id_pasien, id_obat, waktu_pemberian, status) VALUES (@id_pasien, @id_obat, @waktu, @status)";
-            var paramJadwal = new Npgsql.NpgsqlParameter[] 
+            string insertJadwal = "INSERT INTO Penjadwalan_Obat (id_pasien, id_obat, waktu_pemberian, status, catatan) VALUES (@id_pasien, @id_obat, @waktu, @status, @catatan)";
+            var paramJadwal = new Npgsql.NpgsqlParameter[]
             {
                 new Npgsql.NpgsqlParameter("@id_pasien", idPasien),
                 new Npgsql.NpgsqlParameter("@id_obat", idObat),
                 new NpgsqlParameter("@waktu", dateTimePicker2.Value), // -> DateTime (otomatis cocok dengan timestamp PostgreSQL)
-                new Npgsql.NpgsqlParameter("@status", "belum")
+                new Npgsql.NpgsqlParameter("@status", "belum"),
+                new Npgsql.NpgsqlParameter("@catatan", catatan)
             };
 
 

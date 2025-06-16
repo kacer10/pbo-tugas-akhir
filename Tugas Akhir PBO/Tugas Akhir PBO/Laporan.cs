@@ -69,9 +69,23 @@ namespace Tugas_Akhir_PBO
         }
         private void LoadDataKondisi()
         {
-            string query = "SELECT * FROM Kondisi";
+            string query = @"
+                SELECT 
+                    k.id_kondisi,
+                    p.nama_pasien,
+                    k.suhu_tubuh,
+                    k.tanggal_pengecekan,
+                    k.tekanan_darah,
+                    k.detak_jantung,
+                    k.nomor_kamar
+                FROM 
+                    Kondisi k
+                JOIN 
+                    Pasien p ON k.id_pasien = p.id_pasien
+                ";
             DataTable dt = Tugas_Akhir_PBO.Database.Database.queryExecutor(query);
             dataGridView1.DataSource = dt;
+
         }
 
         private void Laporan_Load(object sender, EventArgs e)
